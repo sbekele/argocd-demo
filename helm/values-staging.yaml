@@ -5,7 +5,7 @@ image:
   tag: 1.18.0
 resources:
   requests:
-    CPU: 50m
+    cpu: 50m
     memory: 128Mi
 
 service:
