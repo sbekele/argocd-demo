@@ -4,8 +4,9 @@ namespace:
     repository: nginx
     tag: 1.18.0
   resources:
-    CPU: 50m
-    memory: 128Mi
+    requests:
+      CPU: 50m
+      memory: 128Mi
 
   service:
     type: ClusterIP
